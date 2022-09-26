@@ -15,7 +15,7 @@ def parseArg(argv):
     contractName = ""
     graph = False
     try:
-        opts, args = getopt.getopt(argv, "hgi:o:n:", ["help", "graph", "idir=", "odir=", "name="])
+        opts, args = getopt.getopt(argv, "hgi:o:n:", ["help", "graph", "inputDir=", "outputDir=", "contractName="])
     except getopt.GetoptError:
         print("python3 main.py -i <inputDir> -o <outputDir> -n <contractName>")
         sys.exit(2)
@@ -25,11 +25,11 @@ def parseArg(argv):
             sys.exit()
         elif opt in ("-g", "--graph"):
             graph = True
-        elif opt in ("-i", "--idir"):
+        elif opt in ("-i", "--inputDir"):
             inputDir = arg
-        elif opt in ("-o", "--odir"):
+        elif opt in ("-o", "--outputDir"):
             outputDir = arg
-        elif opt in ("-n", "--name"):
+        elif opt in ("-n", "--contractName"):
             contractName = arg
     if inputDir == "" or (contractName == "" and graph == False):
         print("python3 main.py -i <inputDir> -o <outputDir> -n <contractName>")
@@ -116,7 +116,7 @@ def parseDependency(inputDir, outputDir, graph):
                 dot.node(name = realPath, label = "{404|path: %s}"%realPath)
                 dot.edge(realPath, path)
     if graph:
-        dot.render(os.path.join(outputDir, "DependencyGraph.gv"), format='pdf', view=True)
+        dot.render(os.path.join(outputDir, "DependencyGraph.gv"), format='png', view=True)
 
 
 if __name__ == "__main__":
