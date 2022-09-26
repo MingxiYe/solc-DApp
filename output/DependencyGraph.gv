@@ -1,0 +1,64 @@
+// The Dependency Graph
+digraph {
+	node [shape=record]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FractionalERC20.sol" [label="{FractionalERC20.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/FractionalERC20.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol" [label="{StandardTokenExt.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol|version: ^0.4.14}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Migrations.sol" [label="{Migrations.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/Migrations.sol|version: ^0.4.24}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/PricingStrategy.sol" [label="{PricingStrategy.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/PricingStrategy.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FlatPricing.sol" [label="{FlatPricing.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/FlatPricing.sol|version: ^0.4.12}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeAgent.sol" [label="{UpgradeAgent.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/UpgradeAgent.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleToken.sol" [label="{CrowdsaleToken.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleToken.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FinalizeAgent.sol" [label="{FinalizeAgent.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/FinalizeAgent.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/ReleasableToken.sol" [label="{ReleasableToken.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/ReleasableToken.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/GnosisWallet.sol" [label="{GnosisWallet.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/GnosisWallet.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol" [label="{MintableToken.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/DefaultFinalizeAgent.sol" [label="{DefaultFinalizeAgent.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/DefaultFinalizeAgent.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsale.sol" [label="{AllocatedCrowdsale.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsale.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol" [label="{Crowdsale.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol" [label="{CrowdsaleBase.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol|version: unknow version}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol" [label="{UpgradeableToken.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Haltable.sol" [label="{Haltable.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/Haltable.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Recoverable.sol" [label="{Recoverable.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/Recoverable.sol|version: ^0.4.12}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol" [label="{SafeMathLib.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol|version: ^0.4.6}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsaleMixin.sol" [label="{AllocatedCrowdsaleMixin.sol|path: /home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsaleMixin.sol|version: ^0.4.8}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/FractionalERC20.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/StandardToken.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/StandardToken.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/StandardToken.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Recoverable.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/PricingStrategy.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/FlatPricing.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/FlatPricing.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/ReleasableToken.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/ReleasableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/MintableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/DefaultFinalizeAgent.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/ReleasableToken.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/DefaultFinalizeAgent.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsaleMixin.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/PricingStrategy.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FinalizeAgent.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FractionalERC20.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Crowdsale.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/Haltable.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/SafeMathLib.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FractionalERC20.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/PricingStrategy.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/FinalizeAgent.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/StandardTokenExt.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeAgent.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/UpgradeableToken.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Haltable.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/ownership/Ownable.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Recoverable.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20Basic.sol" [label="{404|path: /home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20Basic.sol}"]
+	"/home/yemx6/solc-dApp/BitHeroToken-master/zeppelin-solidity/contracts/token/ERC20/ERC20Basic.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/Recoverable.sol"
+	"/home/yemx6/solc-dApp/BitHeroToken-master/CrowdsaleBase.sol" -> "/home/yemx6/solc-dApp/BitHeroToken-master/AllocatedCrowdsaleMixin.sol"
+}
