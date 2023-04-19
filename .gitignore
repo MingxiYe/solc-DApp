@@ -1,6 +1,6 @@
 ./output/*
 ./code/*
-./pythonScripts/*
+./pythonScripts
 ./*.zip
 ./20230108dataset
 ./dappsLib
