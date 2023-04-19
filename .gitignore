@@ -1,1 +1,10 @@
 ./output/*
+./code/*
+./pythonScripts/*
+./*.zip
+./20230108dataset
+./dappsLib
+./jsonResultAllnode
+./jsonResultLeaf
+./libs
+./packResult
