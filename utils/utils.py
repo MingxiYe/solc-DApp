@@ -1,5 +1,5 @@
-import sys, getopt
-import os, json, re, shutil
+import getopt
+import os, json, re
 from solidity_parser import parser
 from graphviz import Digraph
 import time
